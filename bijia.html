@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bijia.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="mmb_header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/header_logo.png" alt="">
+        </a>
+      </div>
+      <div class="app">
+        <img src="images/header_app.png" alt="">
+      </div>
+    </div>
+    <div class="mmb_search">
+      <div class="input">
+        <input type="search" name="" id="" placeholder="请输入你想比价的商品">
+      </div>
+      <div class="button">
+        <input type="button" value="搜索">
+      </div>
+    </div>
+
+    <div class="mmb_bijia">
+      <div class="title">
+        <div class="three">
+          <a href="#">首页</a>
+          <span>></span>
+          <a href="#">电视</a>
+          <span>></span>
+          <a href="#">乐视TV(Letv)S50</a>
+          <span>></span>
+        </div>
+        <div>
+          <button class="select">筛选</button>
+        </div>
+
+      </div>
+
+      <div class="desc">
+        <h3>乐视TV(Letv)S50 Air全配版2D 50英寸 全高清LED液晶电视</h3>
+        <img src="./images/tv.png" alt="">
+        <button class="collect">收藏</button>
+      </div>
+
+      <div class="function">
+        <div class="buy active">比价购买</div>
+        <div class="param">产品参数</div>
+        <div>评价（2322）</div>
+
+      </div>
+
+      <div class="goShop">
+        <div class="shopTop"></div>
+        <div class="bottom">
+          * 实际价格以各网站列出的实时售价为准，我们提供的价格可能有数小时至数日的延迟。
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+    <!-- <div class="mmb_footer">
+      <div class="top">
+        <a href="#">登录</a>
+        <a href="#">注册</a>
+        <a href="#" class="toTop">
+          返回顶部
+        </a>
+      </div>
+      <div class="bottom">
+        <p class="downApp">
+          <a href="#" class="colred">手机APP下载</a>
+          <a href="#">慢慢买手机版</a>
+          <a href="#" class="col666">--掌上比价平台</a>
+        </p>
+        <p class="col666">m.manmanbuy.com</p>
+      </div>
+    </div> -->
+  </div>
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/artTemplate/template-web.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/bijia.js"></script>
+
+
+
+  <script type="text/html" id="getproduct">
+    <h3>{{result[0].productName}}</h3>
+    {{@result[0].productImg}}
+    <button class="collect">
+      收藏
+    </button>
+
+  </script>
+
+   <!--去购买按钮-->
+   <script type="text/template" id="goShop">
+    {{@result[0].bjShop}}
+  </script>>
+
+
+
+
+
+
+
+</body>
+
+</html>
