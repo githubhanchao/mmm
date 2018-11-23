@@ -284,7 +284,7 @@ img {
   width: 100%;
   max-width: 750px;
   min-width: 320px;
-  background-color: #fff;
+  background-color: #f1f1f1;
   margin: 0 auto;
 }
 .mmb_header {
@@ -380,4 +380,87 @@ img {
 }
 .mmb_footer .bottom .col666 {
   color: #666;
+}
+.container {
+  background-color: #fff;
+}
+.mmb_header {
+  height: 1rem;
+  background-color: #ff841d;
+  border-bottom: 0.02rem solid #e6e6e6;
+  overflow: hidden;
+}
+.mmb_header .back {
+  float: left;
+  height: 0.96rem;
+  width: 0.96rem;
+  padding: 0.28rem;
+  background: url(../images/icback.svg) no-repeat;
+  background-size: 0.4rem 0.4rem;
+  background-clip: content-box;
+  background-origin: content-box;
+}
+.mmb_header h3 {
+  color: #ffffff;
+  font-size: 0.36rem;
+  text-align: center;
+  overflow: hidden;
+  line-height: 0.96rem;
+}
+.mmb_header .app {
+  float: right;
+  height: 0.96rem;
+  width: 0.96rem;
+  padding: 0.14rem;
+}
+.mmb_inlanddiscount .discountBox {
+  overflow: hidden;
+  margin-bottom: 0.8rem;
+}
+.mmb_inlanddiscount .discountList {
+  float: left;
+  width: 50%;
+  position: relative;
+  height: 5.3rem;
+  border-bottom: 0.02rem solid #cccccc;
+  border-right: 0.02rem solid #cccccc;
+  padding: 0.3rem 0.3rem 0.3rem 0.44rem;
+}
+.mmb_inlanddiscount .discountList .img img {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0 auto;
+}
+.mmb_inlanddiscount .discountList .desc .proName {
+  font-size: 0.28rem;
+  font-weight: 700;
+  line-height: 0.36rem;
+  margin-bottom: 0.08rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.mmb_inlanddiscount .discountList .desc .bottom {
+  position: absolute;
+  bottom: 0.48rem;
+  left: 0.44rem;
+}
+.mmb_inlanddiscount .discountList .desc .price {
+  color: #ff6c00;
+  font-size: 0.28rem;
+  height: 0.36rem;
+  line-height: 0.36rem;
+  margin-bottom: 0.2rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.mmb_inlanddiscount .discountList .desc .proTime {
+  color: #a1a1a1;
+  font-size: 0.24rem;
+}
+.mmb_inlanddiscount .discountList:nth-child(2n) {
+  border-right: none;
 }

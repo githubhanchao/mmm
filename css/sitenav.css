@@ -284,7 +284,7 @@ img {
   width: 100%;
   max-width: 750px;
   min-width: 320px;
-  background-color: #fff;
+  background-color: #f1f1f1;
   margin: 0 auto;
 }
 .mmb_header {
@@ -380,4 +380,60 @@ img {
 }
 .mmb_footer .bottom .col666 {
   color: #666;
+}
+.container {
+  background-color: #fff;
+}
+.mmb_header {
+  height: 1rem;
+  background-color: #ff841d;
+  border-bottom: 0.02rem solid #e6e6e6;
+  overflow: hidden;
+}
+.mmb_header .back {
+  float: left;
+  height: 0.96rem;
+  width: 0.96rem;
+  padding: 0.28rem;
+  background: url(../images/icback.svg) no-repeat;
+  background-size: 0.4rem 0.4rem;
+  background-clip: content-box;
+  background-origin: content-box;
+}
+.mmb_header h3 {
+  color: #ffffff;
+  font-size: 0.36rem;
+  text-align: center;
+  overflow: hidden;
+  line-height: 0.96rem;
+}
+.mmb_header .app {
+  float: right;
+  height: 0.96rem;
+  width: 0.96rem;
+  padding: 0.14rem;
+}
+.mmb_sitenav .navBox {
+  padding: 0.24rem 0.96rem 0.4rem;
+  overflow: hidden;
+}
+.mmb_sitenav .navList {
+  float: left;
+  height: 0.86rem;
+  line-height: 0.86rem;
+  text-align: center;
+  border: 0.02rem solid #dadada;
+  background-color: #f4f4f4;
+  padding: 0 0.56rem;
+  font-size: 0.32rem;
+  position: relative;
+  margin-bottom: 0.1rem;
+  margin-right: 0.1rem;
+}
+.mmb_sitenav .navList img {
+  width: 0.32rem;
+  height: 0.32rem;
+  position: absolute;
+  top: 0.26rem;
+  left: 0.1rem;
 }

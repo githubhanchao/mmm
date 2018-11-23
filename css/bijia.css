@@ -349,6 +349,9 @@ img {
   color: #ffffff;
   outline-style: none;
 }
+.mmb_footer {
+  background-color: #efefef;
+}
 .mmb_footer .top {
   border-top: 1px solid #c4c4c4;
   overflow: hidden;
@@ -500,4 +503,54 @@ img {
   color: #888;
   font-size: 0.24rem;
   padding: 0.2rem;
+}
+.mmb_evaluate {
+  border-top: 0.08rem solid #6e6e6e;
+}
+.mmb_evaluate .evaTop {
+  height: 0.74rem;
+  line-height: 0.74rem;
+  background-color: #dbdbdb;
+  border-bottom: 0.02rem solid #cccccc;
+  font-weight: 700;
+  font-size: 0.28rem;
+  text-align: center;
+}
+.mmb_evaluate .comList {
+  border-bottom: 0.02rem solid #cccccc;
+  padding: 0.3rem 0.2rem 0.2rem;
+}
+.mmb_evaluate .comList .comTitle {
+  height: 0.8rem;
+  position: relative;
+}
+.mmb_evaluate .comList .comTitle span {
+  font-size: 0.24rem;
+  color: #666;
+}
+.mmb_evaluate .comList .comTitle .comFrom {
+  position: absolute;
+  right: 0;
+  top: 0.4rem;
+}
+.mmb_evaluate .comList .comContent {
+  font-size: 0.24rem;
+  color: #000;
+  line-height: 0.44rem;
+}
+.mmb_moreCom {
+  height: 1.64rem;
+  padding: 0.36rem 0.2rem 0.56rem;
+}
+.mmb_moreCom a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #dcdcdc;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+  border: 0.02rem solid #cccccc;
+  font-size: 0.28rem;
+  text-align: center;
+  line-height: 0.64rem;
+  box-shadow: 0 0.02rem 0.02rem #cccccc;
 }

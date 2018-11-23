@@ -284,7 +284,7 @@ img {
   width: 100%;
   max-width: 750px;
   min-width: 320px;
-  background-color: #fff;
+  background-color: #f1f1f1;
   margin: 0 auto;
 }
 .mmb_header {
@@ -380,4 +380,61 @@ img {
 }
 .mmb_footer .bottom .col666 {
   color: #666;
+}
+.container {
+  background-color: #fff;
+}
+.mmb_header {
+  height: 1rem;
+  background-color: #f4483e;
+  border-bottom: 0.02rem solid #f6675e;
+  overflow: hidden;
+}
+.mmb_header .back {
+  float: left;
+  height: 0.96rem;
+  width: 0.96rem;
+  padding: 0.28rem;
+  background: url(../images/icback.svg) no-repeat;
+  background-size: 0.4rem 0.4rem;
+  background-clip: content-box;
+  background-origin: content-box;
+}
+.mmb_header h3 {
+  color: #ffffff;
+  font-size: 0.36rem;
+  text-align: center;
+  overflow: hidden;
+  line-height: 0.96rem;
+}
+.mmb_header .app {
+  float: right;
+  height: 0.96rem;
+  width: 0.96rem;
+  padding: 0.14rem;
+}
+.mmb_coupon {
+  padding: 0.3rem 0.1rem;
+  margin-bottom: 0.2rem;
+}
+.mmb_coupon .couponBox {
+  overflow: hidden;
+}
+.mmb_coupon .couponList {
+  margin-right: 0.1rem;
+  width: 32%;
+  height: 1.64rem;
+  border: 0.02rem solid #f7f7f7;
+  float: left;
+  padding: 0.1rem 0;
+}
+.mmb_coupon .couponList img {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 auto;
+}
+.mmb_coupon .couponList p {
+  text-align: center;
+  font-size: 0.28rem;
+  line-height: 0.44rem;
 }

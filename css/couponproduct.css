@@ -284,7 +284,7 @@ img {
   width: 100%;
   max-width: 750px;
   min-width: 320px;
-  background-color: #fff;
+  background-color: #f1f1f1;
   margin: 0 auto;
 }
 .mmb_header {
@@ -380,4 +380,124 @@ img {
 }
 .mmb_footer .bottom .col666 {
   color: #666;
+}
+.container {
+  background-color: #fff;
+}
+.mmb_header {
+  height: 1rem;
+  background-color: #f4483e;
+  border-bottom: 0.02rem solid #f6675e;
+  overflow: hidden;
+}
+.mmb_header .back {
+  float: left;
+  height: 0.96rem;
+  width: 0.96rem;
+  padding: 0.28rem;
+  background: url(../images/icback.svg) no-repeat;
+  background-size: 0.4rem 0.4rem;
+  background-clip: content-box;
+  background-origin: content-box;
+}
+.mmb_header h3 {
+  color: #ffffff;
+  font-size: 0.36rem;
+  text-align: center;
+  overflow: hidden;
+  line-height: 0.96rem;
+}
+.mmb_header .app {
+  float: right;
+  height: 0.96rem;
+  width: 0.96rem;
+  padding: 0.14rem;
+}
+.mmb_couponProduct .beforeTip {
+  color: #999;
+  text-align: center;
+  margin: 0.2rem 0;
+  font-size: 0.24rem;
+}
+.mmb_couponProduct .couproBox {
+  border-bottom: 0.02rem solid #f2f2f2;
+}
+.mmb_couponProduct .couproBox .couproList {
+  height: 2.76rem;
+  padding: 0.24rem 0.44rem 0.34rem 0.22rem;
+  position: relative;
+}
+.mmb_couponProduct .couproBox .couproList .img {
+  float: left;
+  margin-right: 0.2rem;
+}
+.mmb_couponProduct .couproBox .couproList .img img {
+  width: 2rem;
+  height: 2rem;
+}
+.mmb_couponProduct .couproBox .couproList .desc {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+.mmb_couponProduct .couproBox .couproList .desc .deadTime {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #EE7700;
+  font-size: 0.24rem;
+}
+.mmb_couponProduct .couproBox .couproList .desc .price {
+  font-size: 0.28rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+}
+.mmb_couponProduct .couproBox .couproList .desc .title {
+  font-size: 0.28rem;
+  line-height: 0.4rem;
+  color: #333;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.mmb_couponProduct .couproBox .couproList .desc .arrow_right {
+  position: absolute;
+  bottom: 0.2rem;
+  right: 0.1rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  font-size: 0.72rem;
+  color: #666;
+}
+.mmb_mask {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.mmb_mask .mask_img {
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mmb_mask .mask_img img {
+  width: 4rem;
+  height: 3.2rem;
+}
+.mmb_mask .delete {
+  position: absolute;
+  top: 0.1rem;
+  right: 0.1rem;
+  width: 0.28rem;
+  height: 0.28rem;
+  background-image: url('../images/icon_bar.png');
+  background-size: 4.4rem 2.64rem;
+  background-position: -3.6rem -0.3rem;
 }

@@ -7,7 +7,7 @@ $(function(){
       productid: productid
     },
     success: function (data) {
-      console.log(data);
+      // console.log(data);
       var str = template("getproduct", data);
       $(".mmb_bijia .desc").html(str);
       var goShop = template("goShop", data);
@@ -27,7 +27,7 @@ $(function(){
             category: info.result[0],
             productName: productName
           };
-          console.log(brand);
+          // console.log(brand);
           // 将分类名和商品名包装成对象，结合模板引擎，渲染到三级菜单导航中
           var bijiaTitle = template("bijiaTitle", brand);
           $(".mmb_bijia .three").html(bijiaTitle);
@@ -39,7 +39,23 @@ $(function(){
   })
 
 
+  //根据商品id获取商品评论
+  $.ajax({
+    url: "http://127.0.0.1:9090/api/getproductcom",
+    data: {
+      productid: productid
+    },
+    success: function(info){
+      // console.log(info);
+      
+      var htmlStr = template('getproductcom',info);
+      $('.comBox').html(htmlStr);
 
+
+    }
+
+
+  });
 
 
 

@@ -1,0 +1,224 @@
+@import "common";
+@import "normalize";
+@import "base";
+@import "vairable";
+@import "adapter";
+
+.container {
+  background-color: #fff;
+}
+
+.mmb_header_m {
+  height: 50rem/@base;
+  background-color: @mainColor;
+  border-bottom: 1rem/@base solid @bdColor;
+  overflow: hidden;
+  .back {
+    float: left;
+    height: 48rem/@base;
+    width: 48rem/@base;
+    padding: 14rem/@base;
+    background: url(../images/icback.svg) no-repeat;
+    background-size: 20rem/@base 20rem/@base;
+    background-clip: content-box;
+    background-origin: content-box;
+  }
+  .app {
+    float: right;
+    height: 48rem/@base;
+    width: 48rem/@base;
+    padding: 7rem/@base;
+
+  }
+  h3 {
+    color: #ffffff;
+    font-size: 18rem/@base;
+    text-align: center;
+    overflow: hidden;
+    line-height: 48rem/@base;
+
+  }
+  
+}
+
+.mmb_moneyctrl {
+ 
+  .ctrlItem {
+    padding: 15rem/@base 10rem/@base;
+    height: 128rem/@base;
+    .img{
+      float: left;
+      img {
+        width: 100rem/@base;
+        height: 100rem/@base;
+
+      }
+    }
+    .desc {
+      height: 100%;
+      overflow: hidden;
+      margin-left: 120rem/@base;
+      position: relative;
+      .text {
+        font-size: 15rem/@base;
+        color: #333;
+
+        span {
+          color: #ff6c00;
+        }
+      }
+      .bottom {
+        width: 100%;
+        position: absolute;
+        bottom: 10rem/@base;
+        left: 0rem/@base;
+        font-size: 12rem/@base;
+        color: #a1a1a1;
+        .comTol {
+          position: absolute;
+          bottom: 0rem/@base;
+          right: 0rem/@base;
+        }
+      }
+    }
+
+  }
+
+  .paging {
+
+    height: 38rem/@base;
+    margin-top: 10rem/@base;
+    >div {
+      width: 33.33%;
+      text-align: center;
+      line-height: 33rem/@base;
+      font-size: 14rem/@base;
+    }
+    button{
+      width: 82rem/@base;
+      height: 33rem/@base;
+      outline-style: none;
+    }
+    .currPage {
+      margin: 0 auto;
+      width: 77rem/@base;
+      height: 36rem/@base;
+      line-height: 36rem/@base;
+      border: 1rem/@base solid #ccc;
+      position: relative;
+    }
+    .morePage {
+      position: absolute;
+      bottom: 33rem/@base;
+      left: -1rem/@base;
+      border: 1rem/@base solid #ccc;
+      background-color: #fff;
+      width: 77rem/@base;
+      display: none;
+    }
+  }
+}
+
+
+
+
+
+
+// .mmb_moneyctrl {
+  
+
+
+//    //从后台获取超值折扣推荐区域
+//   .recom_content {
+//     .item {
+//       border-bottom: 1rem/@base solid #e7e7e7;
+//       height: 129rem/@base;
+//       padding: 14rem/@base 8rem/@base;
+      
+//       img {
+//         width: 100rem/@base;
+//         height: 100rem/@base;
+//         float: left;
+//         margin-right: 10rem/@base;
+
+//       }
+//       .desc {
+//         overflow: hidden;
+//         height: 100%;
+//         position: relative;
+
+//         .top {
+//           font-size: 15rem/@base;
+//           color: #333;
+//           .colff6c00 {
+//             color: #ff6c00;
+//           }
+//         }
+
+//         .bottom {
+//           color: #a1a1a1;
+//           font-size: 12rem/@base;
+//           width: 100%;
+//           position: absolute;
+//           bottom: 1rem/@base;
+//           left: 0;
+
+//         }
+
+//       }
+
+//     }
+//   }
+
+
+//   .paging {
+//     height: 38rem/@base;
+//     margin-top: 10rem/@base;
+//     >div {
+//       width: 33.3%;
+//       text-align: center;
+//       line-height: 33rem/@base;
+//       font-size: 14rem/@base
+
+//     }
+
+//     button{
+//       width: 82rem/@base;
+//       height: 33rem/@base;
+//       outline-style: none;
+
+//     }
+//     .currPage {
+//       margin: 0 auto;
+//       width: 77rem/@base;
+//       height: 36rem/@base;
+//       line-height: 36rem/@base;
+//       border: 1rem/@base solid #ccc;
+//       position: relative;
+
+//     }
+//     .morePage {
+//       position: absolute;
+//       top: 33rem/@base;
+//       left: -1rem/@base;
+//       border: 1rem/@base solid #ccc;
+//       background-color: #fff;
+//       width: 77rem/@base;
+//       display: none;
+//     }
+
+//   }
+
+
+// }
+
+
+
+
+
+
+
+
+
+
+

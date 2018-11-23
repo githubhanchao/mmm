@@ -349,6 +349,9 @@ img {
   color: #ffffff;
   outline-style: none;
 }
+.mmb_footer {
+  background-color: #efefef;
+}
 .mmb_footer .top {
   border-top: 1px solid #c4c4c4;
   overflow: hidden;
@@ -377,6 +380,9 @@ img {
 }
 .mmb_footer .bottom .col666 {
   color: #666;
+}
+.container {
+  background-color: #fff;
 }
 .mmb_productlist {
   background-color: #fff;
@@ -411,7 +417,6 @@ img {
   border-bottom: 0.02rem solid #e7e7e7;
   height: 2.58rem;
   padding: 0.28rem 0.16rem;
-  background-color: #f1f1f1;
 }
 .mmb_productlist .proItem .img {
   width: 2rem;
