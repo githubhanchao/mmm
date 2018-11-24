@@ -15,7 +15,7 @@ $(function () {
         pageid: pageid
       },
       success: function (data) {
-        console.log(data);
+        // console.log(data);
         //根据pageid获取数据渲染到页面中
         var str = template("moneyctrl", data);
         $(".mmb_moneyctrl .monCtrl").html(str);
